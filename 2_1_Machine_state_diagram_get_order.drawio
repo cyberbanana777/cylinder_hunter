@@ -1,0 +1,147 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram name="Page-1" id="neAoVd9G1b7N6KvYiAvx">
+    <mxGraphModel dx="1808" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-1" value="" style="ellipse;fillColor=strokeColor;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="70" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-2" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" vertex="1" parent="1">
+          <mxGeometry x="120" y="950" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-21" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="480" y="310" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-18" value="&lt;b&gt;Определение объекта&lt;/b&gt;" style="shape=folder;align=center;verticalAlign=middle;fontStyle=0;tabWidth=150;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;rounded=1;absoluteArcSize=1;arcSize=10;whiteSpace=wrap;" vertex="1" parent="nGBr9-AlDvWc0SokgbuK-21">
+          <mxGeometry width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-19" value="робот поворачивается до тех пор, пока не найдёт объект в пространстве или до 1 полного оборота вокруг своей оси" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="nGBr9-AlDvWc0SokgbuK-21">
+          <mxGeometry y="25" width="210" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-24" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="480" y="430" width="210" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-10" value="&lt;b&gt;Движение до объекта&lt;/b&gt;" style="shape=folder;align=center;verticalAlign=middle;fontStyle=0;tabWidth=150;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;rounded=1;absoluteArcSize=1;arcSize=10;whiteSpace=wrap;" vertex="1" parent="nGBr9-AlDvWc0SokgbuK-24">
+          <mxGeometry width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-23" value="Изменение ориантации робота, чтобы объект был ровно перед ним и движение до объекта" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="nGBr9-AlDvWc0SokgbuK-24">
+          <mxGeometry y="30" width="210" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-27" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="480" y="560" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-11" value="&lt;b&gt;Захват объекта&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%D0%94%D0%B2%D0%B8%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B4%D0%BE%20%D0%BE%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D0%B0%22%20style%3D%22shape%3Dfolder%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3BfontStyle%3D0%3BtabWidth%3D140%3BtabHeight%3D30%3BtabPosition%3Dleft%3Bhtml%3D1%3BboundedLbl%3D1%3BlabelInHeader%3D1%3Brounded%3D1%3BabsoluteArcSize%3D1%3BarcSize%3D10%3BwhiteSpace%3Dwrap%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22490%22%20y%3D%22530%22%20width%3D%22210%22%20height%3D%2290%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;&lt;/b&gt;" style="shape=folder;align=center;verticalAlign=middle;fontStyle=0;tabWidth=140;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;rounded=1;absoluteArcSize=1;arcSize=10;whiteSpace=wrap;" vertex="1" parent="nGBr9-AlDvWc0SokgbuK-27">
+          <mxGeometry width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-26" value="1. Опустить схват&lt;div&gt;2. Открыть схват&lt;/div&gt;&lt;div&gt;3. Подъекхать к объекту вплотную&lt;/div&gt;&lt;div&gt;4. Закрыть схват&lt;/div&gt;&lt;div&gt;5. Поднять схват&lt;/div&gt;" style="html=1;align=left;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="nGBr9-AlDvWc0SokgbuK-27">
+          <mxGeometry y="30" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=70;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nGBr9-AlDvWc0SokgbuK-25" target="nGBr9-AlDvWc0SokgbuK-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-31" value="ARUCO-метка не найдена" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nGBr9-AlDvWc0SokgbuK-30">
+          <mxGeometry x="-0.0712" y="1" relative="1" as="geometry">
+            <mxPoint x="-64" y="29" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-35" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="230" y="850" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-29" value="&lt;b&gt;Ошибка локализации&lt;/b&gt;" style="shape=folder;align=center;verticalAlign=middle;fontStyle=0;tabWidth=140;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;rounded=1;absoluteArcSize=1;arcSize=10;whiteSpace=wrap;" vertex="1" parent="nGBr9-AlDvWc0SokgbuK-35">
+          <mxGeometry width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-34" value="Загорается соответствующая индикация на дисплее и подаётся звуковой сигнал" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="nGBr9-AlDvWc0SokgbuK-35">
+          <mxGeometry y="30" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-36" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="480" y="710" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-25" value="&lt;b&gt;Локализация&lt;/b&gt;" style="shape=folder;align=center;verticalAlign=middle;fontStyle=0;tabWidth=140;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;rounded=1;absoluteArcSize=1;arcSize=10;whiteSpace=wrap;" vertex="1" parent="nGBr9-AlDvWc0SokgbuK-36">
+          <mxGeometry width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-28" value="1. Поиск ARUCO-метки.&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Робот поворачивается до того момента, пока не найдёт ARUCO-метку или не сделает полный оборот вокруг свой оси&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;2. Вычисление положение робота в пространстве&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="html=1;align=left;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="nGBr9-AlDvWc0SokgbuK-36">
+          <mxGeometry y="30" width="210" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=70;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nGBr9-AlDvWc0SokgbuK-28" target="nGBr9-AlDvWc0SokgbuK-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-38" value="ARUCO-метка успешно найдена" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nGBr9-AlDvWc0SokgbuK-37">
+          <mxGeometry x="-0.1586" y="3" relative="1" as="geometry">
+            <mxPoint x="14" y="-13" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-40" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="470" y="1030" width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-13" value="&lt;b&gt;Сброс объекта&lt;/b&gt;" style="shape=folder;align=center;verticalAlign=middle;fontStyle=0;tabWidth=140;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;rounded=1;absoluteArcSize=1;arcSize=10;whiteSpace=wrap;" vertex="1" parent="nGBr9-AlDvWc0SokgbuK-40">
+          <mxGeometry width="280" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-20" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1. Подъехать к точке выгрузки вплотную&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2. Опустить схват&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;3. Открыть схват&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;4. Отъехать на некоторое расстояние назад&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;5.&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Закрыть схват&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;6. Поднять схват&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;7. Развернуться на 180 градусов&lt;/div&gt;" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="nGBr9-AlDvWc0SokgbuK-40">
+          <mxGeometry y="30" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-42" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="470" y="910" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-12" value="&lt;b&gt;Движение до &quot;Базы&quot;&lt;/b&gt;" style="shape=folder;align=center;verticalAlign=middle;fontStyle=0;tabWidth=140;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;rounded=1;absoluteArcSize=1;arcSize=10;whiteSpace=wrap;" vertex="1" parent="nGBr9-AlDvWc0SokgbuK-42">
+          <mxGeometry width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-41" value="1. Составление маршрута назад.&lt;div&gt;2. Движение до &quot;Базы&quot;&lt;/div&gt;" style="html=1;align=left;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="nGBr9-AlDvWc0SokgbuK-42">
+          <mxGeometry y="30" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=70;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nGBr9-AlDvWc0SokgbuK-12" target="nGBr9-AlDvWc0SokgbuK-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=70;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nGBr9-AlDvWc0SokgbuK-26" target="nGBr9-AlDvWc0SokgbuK-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=70;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nGBr9-AlDvWc0SokgbuK-23" target="nGBr9-AlDvWc0SokgbuK-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=75;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nGBr9-AlDvWc0SokgbuK-19" target="nGBr9-AlDvWc0SokgbuK-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=75;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nGBr9-AlDvWc0SokgbuK-15" target="nGBr9-AlDvWc0SokgbuK-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-48" value="Объекты найдены" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nGBr9-AlDvWc0SokgbuK-47">
+          <mxGeometry x="0.6279" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nGBr9-AlDvWc0SokgbuK-15" target="nGBr9-AlDvWc0SokgbuK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-52" value="Объекты не найдены" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nGBr9-AlDvWc0SokgbuK-49">
+          <mxGeometry x="0.1333" y="5" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=70;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nGBr9-AlDvWc0SokgbuK-20" target="nGBr9-AlDvWc0SokgbuK-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="1115" />
+              <mxPoint x="780" y="140" />
+              <mxPoint x="270" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=70;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nGBr9-AlDvWc0SokgbuK-1" target="nGBr9-AlDvWc0SokgbuK-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-54" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="200" y="160" width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-14" value="&lt;b&gt;Сканирование&lt;/b&gt;" style="shape=folder;align=center;verticalAlign=middle;fontStyle=0;tabWidth=140;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;rounded=1;absoluteArcSize=1;arcSize=10;whiteSpace=wrap;" vertex="1" parent="nGBr9-AlDvWc0SokgbuK-54">
+          <mxGeometry width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-15" value="Робот поворачивается до тех пор, пока не найдёт объект в пространстве или до 1 полного оборота вокруг своей оси" style="html=1;align=center;verticalAlign=top;rounded=1;absoluteArcSize=1;arcSize=10;dashed=0;whiteSpace=wrap;" vertex="1" parent="nGBr9-AlDvWc0SokgbuK-54">
+          <mxGeometry y="30" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nGBr9-AlDvWc0SokgbuK-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nGBr9-AlDvWc0SokgbuK-34" target="nGBr9-AlDvWc0SokgbuK-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
